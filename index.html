@@ -14,11 +14,13 @@
                 <h1>Hey! What is up? This is my page. I don't know about what but it is mine</h1>
             </div>
             <div class="buttons">
-                <a href="">Main</a>
-                <a href="">About</a>
-                <a href="">Works</a>
-                <a href="">Additional</a>
-                <a href="">Contacts</a>
+                <ul>
+                    <li><a href="">Main</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Works</a></li>
+                    <li><a href="">Additional</a></li>
+                    <li><a href="">Contacts</a></li>
+                </ul>
             </div>
         </div>
     </header>
@@ -27,11 +29,16 @@
             <img class="mainImage" src="/images/rostock.jpeg" alt="">
             <div class="main-text">
                 <p>Hey! My name is Sultan Bekuratov and I am a mobile developer. This is my resume page</p>
+                <p>Here are all information about me</p>
             </div>
             <img class="dunat" src="/images/dunat.gif" alt="">
         </div>
 
         <div class="about">
+            <div class="race-youtube">
+                <h2>Race 24 Le-Man</h2>
+                <iframe class="race" src="https://www.youtube.com/embed/IYRMLSgvjVY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
                 <div class="about-text">
                     <h1>About me</h1>
                     <p>My name is Sultan Bekmuratov and I am from Kyrgyzstan. Now I study at Ala-Too International University faculty of CS.
@@ -39,8 +46,6 @@
                         <p>another hobbies like Street Workout, playing guitar, races. I have a lot of interests but I am most interested </p>
                         <p>in cars, races. I don't know why but from my childhood I was craving to be a racer.</p>
                         <p>I am that kind of person who does somethig during the day, even if i don't get anything</p>
-                        <h2>Enjoy watching the race</h2>
-                        <iframe src="https://www.youtube.com/embed/W95zO8uBroI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
         </div>
 
@@ -60,8 +65,19 @@
             <img class="rpg" src="/images/RPG.png" alt="">
         </div>
 
-        <div class="additional">
-            <h1>Additional</h1>
+        <div class="additional" id="add">
+            <div class="clicker">
+                <button class="counter" onclick="count()">Count</button>
+                <h2 id="click">0</h2>
+                <button class="reset" onclick="reset()">Reset</button>
+                <script src="/js/counter.js"></script>
+            </div>
+
+            <div class="afterClicker">
+                <button class="chooseButton" id="choose">Choose beer</button>
+                <h2 id="sortOFbeer">beer</h2>
+                <script src="/js/nameOFbeer.js"></script>
+            </div>
         </div>
     </div>
     <footer class="footer">

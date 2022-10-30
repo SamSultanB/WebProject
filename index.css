@@ -1,7 +1,6 @@
 .header {
-    padding: 15px;
     width: auto;
-    height: 10em;
+    height: 12em;
     background-image: url("/images/header.webp");
     display: flex;
 }
@@ -30,7 +29,6 @@
     font-size: 25px;
 }
 
-
 .footer {
     padding: 15px;
     text-align: center;
@@ -43,13 +41,13 @@
     display: flex; 
     justify-content:baseline;
     flex-direction: column;
-    background-color: black;
+    background-color: grey;
 }
 
 .main {
     display: flex;
     flex-direction: row;
-    background-color: black;
+    background-color: grey;
     height: 40em;
     width: auto;
     margin-top: 150px;
@@ -60,6 +58,7 @@
     border: 15px solid black;
     border-radius: 35px;
     margin-left: 40px;
+    font-size: 20px;
 }
 
 .mainImage{
@@ -75,9 +74,10 @@
 }
 
 .about {
+    margin: 50px;
     display:flex;
     justify-content: end;
-    background-color: black;
+    background-color: grey;
     height: 40em;
 }
 
@@ -90,12 +90,19 @@
     padding: 10px;
 }
 
+.race-youtube{
+    display: inline-block;
+    padding: 100px;
+    color: whitesmoke;
+    font-size: 20px;
+}
 .race{
-    margin-left: 50px;
-    margin-top: 50px;
+    width: 600px;
+    height: 400px;
 }
 
 .works {
+    margin: 50px;
     display: flex;
     flex-direction: row;
     height: 40em;
@@ -120,8 +127,49 @@
 }
 
 .additional {
+    padding: 40px;
     display: flex;
-    justify-content: center;
-    background-color: tomato;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: hotpink;
     height: 40em;
+}
+
+.clicker{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    
+}
+
+.counter, .reset {
+    background-color: #4CAF50;
+    box-shadow: 15px;
+    border-radius: 5em;
+    color: rgb(50, 2, 112);
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    margin: 20px;
+}
+
+.afterClicker {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.chooseButton{
+    background-color: #4CAF50;
+    box-shadow: 15px;
+    border-radius: 5em;
+    color: rgb(50, 2, 112);
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    margin: 20px;
 }
