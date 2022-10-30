@@ -1,0 +1,127 @@
+.header {
+    padding: 15px;
+    width: auto;
+    height: 10em;
+    background-image: url("/images/header.webp");
+    display: flex;
+}
+
+.action-table{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-style: italic;
+    font-weight:bold;
+    color: aliceblue;
+    width: 100%;
+}
+
+.bar{
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+}
+
+.buttons a{
+    display:flex;
+    flex-direction: row;
+    color: aliceblue;
+    font-size: 25px;
+}
+
+
+.footer {
+    padding: 15px;
+    text-align: center;
+    background-color: aqua;
+    font-size: 30px;
+    height: 10em;
+}
+
+.main-container {
+    display: flex; 
+    justify-content:baseline;
+    flex-direction: column;
+    background-color: black;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    height: 40em;
+    width: auto;
+    margin-top: 150px;
+}
+
+.main-text{
+    color: white;
+    border: 15px solid black;
+    border-radius: 35px;
+    margin-left: 40px;
+}
+
+.mainImage{
+    width: auto;
+    max-height: 100%;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+.dunat{
+    margin: 50px;
+    border-radius: 50px;
+}
+
+.about {
+    display:flex;
+    justify-content: end;
+    background-color: black;
+    height: 40em;
+}
+
+.about-text{
+    margin-top: 100px;
+    margin-right: 100px;
+    background-color: springgreen;
+    color: black;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.race{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.works {
+    display: flex;
+    flex-direction: row;
+    height: 40em;
+    color: aliceblue;
+}
+
+.info{
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.gameOflife{
+    margin: 50px;
+    width: 450px;
+    height: 300px;
+}
+
+.rpg{
+    margin: 50px;
+    width: 450;
+    height: 350px;
+}
+
+.additional {
+    display: flex;
+    justify-content: center;
+    background-color: tomato;
+    height: 40em;
+}
