@@ -8,33 +8,30 @@
     <title>Something</title>
 </head>
 <body>
-    <header class="header">
-        <div class="action-table">
-            <div class="bar">
-                <h1>Hey! What is up? This is my page. I don't know about what but it is mine</h1>
-            </div>
-            <div class="buttons">
-                <ul>
-                    <li><a href="">Main</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Works</a></li>
-                    <li><a href="">Additional</a></li>
-                    <li><a href="">Contacts</a></li>
-                </ul>
-            </div>
+    <header>
+        <h1>Hi everyone!</h1>
+        <div class="header-buttons">
+            <a href="#main"><button>Main</button></a>
+          <a href="#about"><button>About</button></a>
+          <a href="#works"><button>Works</button></a>
+          <a href="#add"><button>Game</button></a>
+          <a href="#contacts"><button>Contacts</button></a>
         </div>
-    </header>
+      </header>
     <div class="main-container">
-        <div class="main">
+        <div class="main" id="main">
             <img class="mainImage" src="/images/rostock.jpeg" alt="">
             <div class="main-text">
                 <p>Hey! My name is Sultan Bekuratov and I am a mobile developer. This is my resume page</p>
-                <p>Here are all information about me</p>
+                <p>Here is all information about me</p>
+                <li>About myself</li>
+                <li>My works</li>
+                <li>Contancts</li>
             </div>
             <img class="dunat" src="/images/dunat.gif" alt="">
         </div>
 
-        <div class="about">
+        <div class="about" id="about">
             <div class="race-youtube">
                 <h2>Race 24 Le-Man</h2>
                 <iframe class="race" src="https://www.youtube.com/embed/IYRMLSgvjVY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -49,7 +46,7 @@
                 </div>
         </div>
 
-        <div class="works">
+        <div class="works" id="works">
             <div class="info">
                 <h2>I don't have big background but have done some projects like</h2>
                 <ul>
@@ -80,8 +77,18 @@
             </div>
         </div>
     </div>
-    <footer class="footer">
-        <h1>This is my footer!</h1>
-        <p>Guys! This is my footer and I also don't know what is it, but I know it is my</p>
+    <footer class="footer" id="contacts">
+        <div class="instagram">
+            <h1>Here is my instagram</h1>
+            <a href=""><img src="/images/instagram.png" width="70" height="auto" alt=""></a>
+        </div>
+        <div class="gmail">
+            <h1>My gmail</h1>
+            <a href=""><img src="/images/gmail.png" width="70" height="auto" alt=""></a>
+        </div>
+        <div class="contact">
+            <h1>My contact number</h1>
+            <a href=""><img src="/images/phone.png" width="70" height="auto" alt=""></a>
+        </div>
     </footer>
 </body>

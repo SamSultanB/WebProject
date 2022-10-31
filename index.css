@@ -1,41 +1,68 @@
-.header {
-    width: auto;
-    height: 12em;
-    background-image: url("/images/header.webp");
-    display: flex;
-}
-
-.action-table{
-    padding-top: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    font-style: italic;
-    font-weight:bold;
-    color: aliceblue;
-    width: 100%;
-}
-
-.bar{
-    display: flex;
-    text-align: center;
+  header{
+    height: 200px;
+    background-image: url('/images/header.webp');
+    background-attachment: fixed;  
+    background-size: cover;
     font-size: 20px;
-}
-
-.buttons a{
-    display:flex;
-    flex-direction: row;
     color: aliceblue;
-    font-size: 25px;
-}
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    
+  }
+  .header-buttons{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  header .header-buttons a button{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    color: black;
+    font-size: 1.7em;
+    background-color: white;
+    border-radius: 15px;
+  }
+
+
 
 .footer {
     padding: 15px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
     background-color: aqua;
     font-size: 30px;
     height: 10em;
 }
+
+.instagram{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    margin: 25px;
+}
+
+.gmail{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    margin: 25px;
+}
+
+.contact{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    margin: 25px;
+}
+
 
 .main-container {
     display: flex; 
@@ -59,6 +86,7 @@
     border-radius: 35px;
     margin-left: 40px;
     font-size: 20px;
+    padding: 20px;
 }
 
 .mainImage{
@@ -85,6 +113,7 @@
     margin-top: 100px;
     margin-right: 100px;
     background-color: springgreen;
+    font-size: 25px;
     color: black;
     border-radius: 30px;
     padding: 10px;
@@ -131,6 +160,7 @@
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
+    align-items: center;
     background-color: hotpink;
     height: 40em;
 }
@@ -157,6 +187,8 @@
 
 .afterClicker {
     display:flex;
+    max-width: 300px;
+    max-height: 400px;
     justify-content: center;
     align-items: center;
     color: black;
