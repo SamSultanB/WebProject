@@ -1,6 +1,6 @@
   header{
     height: 200px;
-    background-image: url('/images/header.WEBP');
+    background-image: url('./images/header.WEBP');
     background-attachment: fixed;  
     background-size: cover;
     font-size: 20px;
