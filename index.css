@@ -8,7 +8,11 @@
     display: flex;
     justify-content:space-evenly;
     align-items: center;
+    border: 10px solid darkblue;
     
+  }
+  a{
+    margin: 20px;
   }
   .header-buttons{
     display: flex;
@@ -27,11 +31,20 @@
 
 
 .footer {
+    display: flex;
+    justify-content: center;
+    background-color: cadetblue;
+    border: 15px solid darkblue;
+}
+
+.holder{
+    margin: 30px;
     padding: 15px;
     display: flex;
     justify-content: center;
     flex-direction: row;
-    background-color: aqua;
+    background-color: grey;
+    border-radius: 40px;
     font-size: 30px;
     height: 10em;
 }
@@ -63,18 +76,28 @@
     margin: 25px;
 }
 
+.github{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    margin: 25px;
+}
+
 
 .main-container {
     display: flex; 
     justify-content:baseline;
     flex-direction: column;
-    background-color: grey;
+    background-color: rgb(2, 2, 77);
+    border: 10px solid darkblue;;
 }
 
 .main {
     display: flex;
     flex-direction: row;
-    background-color: grey;
+    background-color: rgb(2, 2, 77)e;
     height: 40em;
     width: auto;
     margin-top: 150px;
@@ -82,10 +105,11 @@
 
 .main-text{
     color: white;
-    border: 15px solid black;
+    background-color: darkgrey;
+    border: 15px solid blueviolet;
     border-radius: 35px;
     margin-left: 40px;
-    font-size: 20px;
+    font-size: 30px;
     padding: 20px;
 }
 
@@ -93,6 +117,7 @@
     width: auto;
     max-height: 100%;
     border-radius: 5px;
+    border: 15px solid yellow;
     margin: 15px;
 }
 
@@ -105,7 +130,7 @@
     margin: 50px;
     display:flex;
     justify-content: end;
-    background-color: grey;
+    background-color: rgb(2, 2, 77);
     height: 40em;
 }
 
@@ -115,6 +140,7 @@
     background-color: springgreen;
     font-size: 25px;
     color: black;
+    border: 15px solid wheat;
     border-radius: 30px;
     padding: 10px;
 }
@@ -161,7 +187,7 @@
     justify-content: space-evenly;
     flex-direction: row;
     align-items: center;
-    background-color: hotpink;
+    background-color: rgb(2, 2, 77);
     height: 40em;
 }
 
@@ -169,7 +195,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: black;
+    color: white;
+    font-size: 30px;
     
 }
 
@@ -191,7 +218,8 @@
     max-height: 400px;
     justify-content: center;
     align-items: center;
-    color: black;
+    color: white;
+    font-size: 20px;
 }
 
 .chooseButton{
