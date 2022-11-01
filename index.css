@@ -11,14 +11,16 @@
     border: 10px solid darkblue;
     
   }
+
   a{
     margin: 20px;
   }
+
   .header-buttons{
     display: flex;
-    justify-content: space-around;
     padding: 10px;
   }
+
   header .header-buttons a button{
     grid-row-start: 2;
     grid-row-end: 3;
@@ -129,16 +131,19 @@
 .about {
     margin: 50px;
     display:flex;
-    justify-content: end;
+    justify-content: space-between;
     background-color: rgb(2, 2, 77);
     height: 40em;
 }
 
 .about-text{
+    flex: 1;
+    height: 500px;
     margin-top: 100px;
-    margin-right: 100px;
+    margin-right: 70px;
+    margin-left: 20px;
     background-color: springgreen;
-    font-size: 25px;
+    font-size: 20px;
     color: black;
     border: 10px solid wheat;
     border-radius: 30px;
@@ -146,13 +151,15 @@
 }
 
 .race-youtube{
-    display: inline-block;
-    padding: 100px;
+    padding-top: 50px;
+    flex: 1;
+    height: 400px;;
+    display: block;
     color: whitesmoke;
     font-size: 20px;
 }
 .race{
-    width: 600px;
+    width: 600px;;
     height: 400px;
 }
 
@@ -232,4 +239,261 @@
     display: inline-block;
     font-size: 30px;
     margin: 20px;
+}
+
+
+
+
+
+@media (max-width: 500px){
+
+    header{
+        height: 100px;
+        width: 99%;
+        background-image: url('./images/header.webp');
+        background-attachment:fixed;  
+        background-size: cover;
+        font-size: 10px;
+        color: aliceblue;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        border: 5px solid darkblue;
+        
+      }
+    
+      a{
+        margin: 10px;
+      }
+    
+      .header-buttons{
+        display: inline-block;
+      }
+    
+      header .header-buttons a button{
+        grid-row-start: 2;
+        grid-row-end: 3;
+        color: black;
+        font-size: 20px;
+        background-color: white;
+        border-radius: 10px;
+      }
+    
+    
+    
+    .footer {
+        display: flex;
+        justify-content: center;
+        background-color: cadetblue;
+        border: 15px solid darkblue;
+        width: 98%;
+    }
+    
+    .holder{
+        margin: 20px;
+        padding: 10px;
+        display: flex;
+        flex: 1;
+        display: inline;
+        justify-content: center;
+        flex-direction: row;
+        background-color: grey;
+        border-radius: 40px;
+        height: 23em;
+    }
+    
+    .instagram{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        margin: 25px;
+    }
+    
+    .gmail{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        margin: 25px;
+    }
+    
+    .contact{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        margin: 25px;
+    }
+    
+    .github{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        margin: 25px;
+    }
+    
+    
+    .main-container {
+        display: flex; 
+        justify-content: baseline;
+        flex-direction: column;
+        background-color: rgb(2, 2, 77);
+        border: 10px solid darkblue;
+        width: 100%;
+        height: auto;
+    }
+    
+    .main {
+        display: block;
+        background-color: rgb(2, 2, 77)e;
+        height: auto;
+        width: 100%;
+        margin-top: 100px;
+    }
+    
+    .main-text{
+        color: white;
+        background-color: darkgrey;
+        border: 15px solid blueviolet;
+        border-radius: 35px;
+        margin: 10px;
+        font-size: 20px;
+        padding: 20px;
+    }
+    
+    .mainImage{
+        max-width: 80%;
+        height: auto;
+        border-radius: 5px;
+        border: 15px solid yellow;
+        margin: 15px;
+    }
+    
+    .dunat{
+        width: 80%;
+        height: auto;
+        margin: 25px;
+        border-radius: 50px;
+    }
+    
+    .about {
+        display:block;
+        justify-content: center;
+        background-color: rgb(2, 2, 77);
+        width: 87%;
+        height: auto;
+    }
+    
+    .about-text{
+        background-color: springgreen;
+        font-size: 15px;
+        color: black;
+        border: 10px solid wheat;
+        border-radius: 30px;
+        padding: 10px;
+    }
+    
+    .race-youtube{
+        padding-top: 50px;
+        flex: 1;
+        height: 400px;;
+        display: block;
+        color: whitesmoke;
+        font-size: 20px;
+    }
+    .race{
+        width: 300px;;
+        height: 200px;
+    }
+    
+    .works {
+        margin: 50px;
+        display:flex;
+        flex-direction: column;
+        width: 80%;
+        height: auto;
+        color: aliceblue;
+    }
+    
+    .info{
+        margin-top: 50px;
+        font-size: 15px;
+    }
+
+    .code{
+        width: 60%;
+        height: auto;
+    }
+    
+    .gameOflife{
+        margin: 50px;
+        width: 150px;
+        height: auto;
+    }
+    
+    .rpg{
+        margin: 50px;
+        width: 150;
+        height: auto;
+    }
+    
+    .additional {
+        padding: 40px;
+        display: inline-block;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: rgb(2, 2, 77);
+        width: 80%;
+        height: auto;
+    }
+    
+    .clicker{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 20px;
+        
+    }
+    
+    .counter, .reset {
+        background-color: #4CAF50;
+        box-shadow: 15px;
+        border-radius: 5em;
+        color: rgb(50, 2, 112);
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 15px;
+        margin: 20px;
+    }
+    
+    .afterClicker {
+        display:flex;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 20px;
+    }
+    
+    .chooseButton{
+        background-color: #4CAF50;
+        box-shadow: 15px;
+        border-radius: 5em;
+        color: rgb(50, 2, 112);
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 15px;
+        margin: 20px;
+    }
+
 }
